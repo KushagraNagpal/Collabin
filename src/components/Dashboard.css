@@ -1,0 +1,111 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between; /* Space between title and profile link */
+    align-items: center; /* Center vertically */
+    margin-bottom: 30px;
+}
+
+.dashboard-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40; /* Darker text for better readability */
+}
+
+/* Profile Link */
+.view-profile-link {
+    padding: 10px 15px;
+    background-color: #007bff; /* Primary color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+    font-weight: 500; /* Make the text bold */
+}
+
+.view-profile-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Card Styles */
+.dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px; /* Spacing below cards */
+}
+
+.dashboard-card {
+    flex: 1 1 calc(30% - 20px); /* Responsive card width */
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    color: #007bff; /* Primary color for titles */
+}
+
+.card-content {
+    font-size: 1rem;
+    color: #6c757d; /* Slightly lighter text for content */
+}
+
+/* Opportunities Section */
+.opportunities-section {
+    margin-top: 40px; /* Spacing above opportunities */
+}
+
+.opportunities-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #343a40; /* Dark text for headings */
+}
+
+/* Footer Styles */
+.dashboard-footer {
+    text-align: center;
+    margin-top: 40px; /* Space above footer */
+}
+
+.logout-button {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+    font-weight: 500; /* Make the text bold */
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard-card {
+        flex: 1 1 100%; /* Stack cards on smaller screens */
+    }
+}

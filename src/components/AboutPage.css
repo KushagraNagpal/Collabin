@@ -1,0 +1,19 @@
+/* /Users/kushagra/collabin-projects/collabin-frontend/src/components/AboutPage.css */
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+.card {
+  text-align: center;
+  height: 100%; /* Ensures the card takes the full height of the column */
+}
+
+.mission-card, .offer-card {
+  height: 300px; /* Set a fixed height for both cards */
+}

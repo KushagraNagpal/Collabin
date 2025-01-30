@@ -1,0 +1,14 @@
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  
+  .card {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%; /* Makes the image fill the card width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}

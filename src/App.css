@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the root takes at least the full height of the viewport */
+}
+
+main {
+  flex: 1; /* Allows the main content area to grow and fill the space */
+}
